@@ -1,0 +1,144 @@
+body{
+    margin:0;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    box-sizing: border-box;
+}
+#logo a{
+    padding: 10px;
+    font-size: 40px;
+    color: #FBC01E;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Akshar', sans-serif;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 2px black;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+nav ul a{
+    text-decoration: none;
+    margin: 5px;
+    font-family: 'Akshar', sans-serif;
+    font-size: 25px;
+    color: #FBC01E;
+    text-shadow: 1px 1px 2px black;
+    text-transform: uppercase;
+}
+nav ul a:hover{
+    color: aliceblue;
+    /* padding: 20px; */
+    /* background-color: #FBC01E; */
+    border-bottom: #FBC01E solid 2px;
+    border-radius: 5px;
+}
+.hero{
+    background-image: url('img/lacie-slezak-7yqyQQXgOT8-unsplash.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+}
+#hero{
+    width: 700px;
+    background-color: rgba(23, 20, 20, 0.596);
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    margin: 0 auto;
+    position: relative;
+    top: 200px;
+}
+#hero h1{
+    color: azure;
+    font-weight: bold;
+    font-size: 35px;
+    margin: 0;
+    font-family: 'Akshar', sans-serif;
+
+}
+#hero p{
+    color: azure;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: 'Akshar', sans-serif;
+
+}
+#hero a{
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+    background-color: #FBC01E;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 20px;
+    font-family: 'Akshar', sans-serif;
+
+}
+#hero a:hover{
+    border-bottom: black solid 2px;
+    color: rgb(5, 54, 96);
+    background: linear-gradient(0deg, #FBC01E ,  rgb(194, 226, 255));
+}
+#destinations ul{
+    display: flex;
+    width: 90%;
+    list-style: none;
+    justify-content: space-around;
+    /* margin-bottom: 40px; */
+    margin: 0;
+}
+#destinations li{
+    margin: 20px;
+}
+#destinations img{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    border-radius: 10px;
+    box-shadow: 4px 4px 8px rgba(23, 20, 20, 0.596);
+    object-fit: cover;
+}
+#destinations p{
+text-align: center;
+}
+#destinations h1{
+    text-align: center;
+    margin: 0;
+    padding-top: 30px;
+}
+strong{
+    color: #0E6B3E;
+}
+#destinations{
+    background: linear-gradient(0deg, rgb(227,255,253),rgb(131, 254, 205));
+    margin: 0;
+    font-family: 'Akshar', sans-serif;
+}
+#footer-icons{
+display: flex;
+list-style: none;
+align-items: center;
+justify-content: center;
+background-color: #1a1e1c;
+padding: 0;
+margin: 0;
+}
+#footer-icons li{
+    padding: 15px;
+}
+#footer-icons li:hover{
+    width:90px;
+    height: 90px;
+}
